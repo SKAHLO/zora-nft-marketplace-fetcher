@@ -12,7 +12,8 @@ npm init -y
 npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers
 2.	Initialize Hardhat:
 npx hardhat init
-3.	Deploy the contract:
+3. Go to the .env folder and replace the API keys wuht yours.
+4.	Deploy the contract:
 npx hardhat run scripts/deploy_price_fetcher.js --network mainnet
-4.	Run the price fetching script:
+5.	Run the price fetching script:
 npx hardhat run scripts/fetch_prices.js --network mainnet
