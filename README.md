@@ -1,5 +1,5 @@
 # zora-nft-marketplace-fetcher
-A Flutter mobile and web app that is used to retrieve the details of NFTs listed on Zora by calling an inbuilt smart contract that makes use of Zora's module interface. Make sure to refer to readme file to learn how to deploy the smart contract using your own Infura and Ehterscan API key.
+A Flutter mobile and web app that is used to retrieve the details of NFTs listed on Zora by calling an inbuilt smart contract that makes use of Zora's module interface. Make sure to refer to readme file to learn how to deploy the smart contract using your own Infura and Ehterscan API key. Refer to the branches to access the respective codes.
 1.	This contract uses Zora's actual interfaces to fetch pricing information from their modules.
 2.	The contract supports both fixed price listings (Asks) and auctions.
 3.	The getBestPrice function helps users find the lowest available price for an NFT.
